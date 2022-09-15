@@ -54,6 +54,7 @@ The **Leader key** is a way of extending the power of Neovim's shortcuts by usin
 | [junegunn/goyo.vim](https://github.com/junegunn/goyo.vim) | :white_check_mark: | Goyo | |
 | [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) | :white_check_mark: | NvimTreeOpen, NvimTreeToggle, NvimTreeFindFile, NvimTreeFocus | |
 | [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) | | | |
+| [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) | | | |
 | [ekalinin/Dockerfile.vim](https://github.com/ekalinin/Dockerfile.vim) | :white_check_mark: | | dockerfile |
 | [fatih/vim-go](https://github.com/fatih/vim-go) | :white_check_mark: | | go |
 | [plasticboy/vim-markdown](https://github.com/plasticboy/vim-markdown) | :white_check_mark: | | markdown |

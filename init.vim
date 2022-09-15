@@ -16,6 +16,7 @@ Plug 'airblade/vim-gitgutter', {'on':'GitGutterEnable'}
 Plug 'junegunn/goyo.vim', {'on':'Goyo'}
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua', {'on':['NvimTreeOpen','NvimTreeToggle','NvimTreeFindFile','NvimTreeFocus']}
+Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 Plug 'ekalinin/Dockerfile.vim', {'for':'dockerfile'}
 Plug 'fatih/vim-go', {'for':'go'}
 Plug 'plasticboy/vim-markdown', {'for':['markdown','md']}
@@ -35,6 +36,7 @@ retab
 syntax on
 filetype on
 filetype plugin indent on
+set t_Co=256
 set background=light
 set number
 set nobackup
@@ -86,7 +88,7 @@ nmap <C-g> :GitGutterEnable<cr>
 nmap <C-f> :Goyo<cr>
 
 " Toggle Terminal below current tab
-nmap <C-d> :below terminal<cr>
+nmap <C-d> :ToggleTerm<cr>
 
 " make NvimTree easier
 nmap <C-t> :NvimTreeToggle<cr>
@@ -94,6 +96,10 @@ nmap <C-n> :NvimTreeFindFile<cr>
 
 " Source Lua Configs
 lua <<EOF
+require("toggleterm").setup({
+    shade_terminals = false
+})
+
 require'nvim-web-devicons'.setup {
     default = true;
 }
