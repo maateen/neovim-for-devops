@@ -1,0 +1,14 @@
+theme: jekyll-theme-minimal
+title: Neovim for DevOps
+description: An awesome lightweight Neovim for DevOps
+url: https://neovim-for-devops.maateen.me/
+logo: https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg
+show_downloads: true
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Neovim-logo.svg/2560px-Neovim-logo.svg.png
